@@ -9,6 +9,6 @@ import PeopleTable from './PeopleTable'
 ReactDOM.createRoot(document.getElementById('root')).render(
     
  
-    <PoepleTable />
+    <PeopleTable />
  
 )
