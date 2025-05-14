@@ -12,7 +12,7 @@ class PeopleForm extends React.Component {
                             name="firstName"
                             className="form-control"
                             value={this.props.firstName}
-                            onChange={this.props.onFirstNameChange}                        />
+                            onChange={this.props.onFirstNameChange} />
                     </div>
 
                     <div className="col-md-3">
@@ -21,7 +21,7 @@ class PeopleForm extends React.Component {
                             name="lastName"
                             className="form-control"
                             value={this.props.lastName}
-                            onChange={this.props.onLastNameChange }                        />
+                            onChange={this.props.onLastNameChange} />
                     </div>
 
                     <div className="col-md-3">
@@ -30,15 +30,17 @@ class PeopleForm extends React.Component {
                             name="age"
                             className="form-control"
                             value={this.props.age}
-                            onChange={this.props.onAgeChange }                        />
+                            onChange={this.props.onAgeChange} />
                     </div>
+                  
+        
                     <div className="col-md-1">
                         <button className="btn btn-primary" onClick={this.props.onAddClick}>Add</button>
                     </div>
                     <div className="col-md-2">
                         <button className="btn btn-warning ml-3" onClick={this.props.onClearClick}>Clear All</button>
                     </div>
-            
+
                 </div>
             </div>
 
