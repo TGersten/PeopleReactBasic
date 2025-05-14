@@ -14,11 +14,11 @@ class PersonRow extends React.Component {
     }
 
     render() {
+       
         if (!this.props.people.length) {
-            return <h1>No people added yet! Add some people!</h1>
+            return;
 
         }
-
 
         return this.props.people.map(p =>
             <tr className={this.getClassName(p.age)}>

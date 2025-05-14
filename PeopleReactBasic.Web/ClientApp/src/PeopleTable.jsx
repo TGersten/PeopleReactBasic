@@ -1,7 +1,7 @@
 import React from 'react';
 import PeopleForm from "./PeopleForm";
 import PersonRow from "./PersonRow"
-
+import Message from "./Message"
 class PeopleTable extends React.Component {
 
     state = {
@@ -72,7 +72,7 @@ class PeopleTable extends React.Component {
                     onAddClick={this.onAddClick}
                 />
 
-             
+                <Message people={this.state.people }/>
                
                     <table className='table table-hover table-bordered'>
                         <thead>
